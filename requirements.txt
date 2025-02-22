@@ -1,0 +1,5 @@
+grpcio~=1.70.0
+grpcio-tools
+pyannote.audio
+torch
+protobuf~=5.29.3
