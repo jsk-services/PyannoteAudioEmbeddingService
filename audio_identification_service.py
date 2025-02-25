@@ -22,7 +22,7 @@ class AudioIdentificationService(Services.AudioIdentificationServiceServicer):
 
 
 if __name__ == "__main__":
-    port = os.environ.get("PORT", 50001)
+    port = os.environ.get("PORT", 50000)
     token = os.environ.get("TOKEN", "")
     
     print("Preparing models...")
